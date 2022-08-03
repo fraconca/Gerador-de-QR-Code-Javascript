@@ -1,3 +1,4 @@
-# js-yjx3dd
+# Gerador de QR Code Javascript
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-yjx3dd)
+[Veja no StackBlitz ⚡️](https://stackblitz.com/edit/js-yjx3dd)
+[By Flávio Conca 🧑‍💻](https://www.instagram.com/blackbeltjs/)
