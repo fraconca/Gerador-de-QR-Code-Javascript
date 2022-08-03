@@ -3,8 +3,20 @@
 var QRCode = require('qrcode');
 
 // TEXTO E URL em CANVA
+var optCanva = {
+  errorCorrectionLevel: 'H',
+  type: 'image/webp',
+  quality: 0.1,
+  margin: 2,
+  // width: 500,
+  width: 500,
+  color: {
+    dark: '#010599FF',
+    light: '#FFBF60FF',
+  },
+};
 var canvas = document.getElementById('canvas');
-QRCode.toCanvas(canvas, 'https://neighboruing.com.br/', function (error) {
+QRCode.toCanvas(canvas, 'https://neighboruing.com.br/', optCanva, function (error) {
   if (error) console.error(error);
   console.log('success!');
 });
